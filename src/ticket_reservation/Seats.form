@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,81,0,0,2,43"/>
+    <SyntheticProperty name="formPosition" type="java.awt.Point" value="-84,-19,0,5,115,114,0,14,106,97,118,97,46,97,119,116,46,80,111,105,110,116,-74,-60,-118,114,52,126,-56,38,2,0,2,73,0,1,120,73,0,1,121,120,112,0,0,0,0,0,0,0,0"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="0"/>
+    <SyntheticProperty name="generatePosition" type="boolean" value="true"/>
+    <SyntheticProperty name="generateSize" type="boolean" value="true"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace pref="136" max="32767" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="175" max="-2" attributes="0"/>
+                  <Component id="minimize" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="close" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel1" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="minimize" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="close" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="31" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="24" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Ticketing"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="minimize">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="22" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="-"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="minimizeMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="close">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="22" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="x"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="closeMouseClicked"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new java.awt.Color(255, 255, 255)" type="code"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="45" pref="45" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="h2" min="-2" pref="45" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="i1" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="i2" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="i3" min="-2" pref="46" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="h1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="g2" alignment="1" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="f2" alignment="1" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="e2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="d2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="c2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="b2" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="i4" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="h3" alignment="0" pref="46" max="32767" attributes="0"/>
+                                  <Component id="g3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="f3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="e3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="d3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="c3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="b3" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="a1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="a2" min="-2" pref="47" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="b1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="c1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="d1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="e1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="f1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="g1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="a3" min="-2" pref="45" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="224" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="confirm" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="218" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTextField1_seat" min="-2" pref="166" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" min="-2" pref="88" max="-2" attributes="0"/>
+                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="a1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="a2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="a3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="b1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="b2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="b3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="c1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="c2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="c3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="d1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="d2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="d3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="e1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="e2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="e3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextField1_seat" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="f1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="f2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="f3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="g1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="g2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="g3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="h1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="h2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="h3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="i1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="i2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="i4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="i3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="33" max="32767" attributes="0"/>
+                      <Component id="confirm" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="a1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="A1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="a1MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="int a1Flag = 0;&#xa;int a2Flag = 0;&#xa;int a3Flag = 0;&#xa;int b1Flag = 0;&#xa;int b2Flag = 0;&#xa;int b3Flag = 0;&#xa;int c1Flag = 0;&#xa;int c2Flag = 0;&#xa;int c3Flag = 0;&#xa;int d1Flag = 0;&#xa;int d2Flag = 0;&#xa;int d3Flag = 0;&#xa;int e1Flag = 0;&#xa;int e2Flag = 0;&#xa;int e3Flag = 0;&#xa;int f1Flag = 0;&#xa;int f2Flag = 0;&#xa;int f3Flag = 0;&#xa;int g1Flag = 0;&#xa;int g2Flag = 0;&#xa;int g3Flag = 0;&#xa;int h1Flag = 0;&#xa;int h2Flag = 0;&#xa;int h3Flag = 0;&#xa;int i1Flag = 0;&#xa;int i2Flag = 0;&#xa;int i3Flag = 0;&#xa;int i4Flag = 0;&#xa;try {&#xa;            FileReader fileReader = new FileReader(&quot;seats.txt&quot;);&#xa;            BufferedReader bufferedReader = new BufferedReader(fileReader);&#xa;            &#xa;            String line ;&#xa;            while((line = bufferedReader.readLine()) != null) {&#xa;                String [] s1 = line.split(&quot;,&quot;);&#xa;                String busid = s1[0];&#xa;                if (busNumber.equalsIgnoreCase(busid)) {&#xa;                    System.out.println(&quot;busNumber &quot;+ busNumber);&#xa;                    System.out.println(&quot;busid &quot;+ busid);&#xa;                    String seatNumber = s1[1];&#xa;                    String color = s1[2];&#xa;                    System.out.println(&quot;color &quot;+ color);&#xa;                    if(seatNumber.equalsIgnoreCase(&quot;A1&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            a1Flag = 1;&#xa;                            //System.out.println(&quot;a1 &quot;+ a1Flag);&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;A2&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            a2Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;A3&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            a3Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    if(seatNumber.equalsIgnoreCase(&quot;B1&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            b1Flag = 1;&#xa;                            //System.out.println(&quot;a1 &quot;+ a1Flag);&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;B2&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            b2Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;B3&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            b3Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;C1&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            c1Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;C2&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            c2Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;C3&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            c3Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;D1&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            d1Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;D2&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            d2Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;D3&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            d3Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;E1&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            e1Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;E2&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            e2Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;E3&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            e3Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;F1&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            f1Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;F2&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            f2Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;F3&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            f3Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;G1&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            g1Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;G2&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            g2Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;G3&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            g3Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;H1&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            h1Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;H2&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            h2Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;H3&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            h3Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;I1&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            i1Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;I2&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            i2Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;I3&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            i3Flag = 1;&#xa;                        }&#xa;                    }&#xa;                    else if(seatNumber.equalsIgnoreCase(&quot;I4&quot;)) {&#xa;                        if(color.equalsIgnoreCase(&quot;RED&quot;)){&#xa;                            i3Flag = 1;&#xa;                        }&#xa;                    }&#xa;                }&#xa;            }&#xa;} catch (FileNotFoundException ex) {&#xa;            Logger.getLogger(Ticket.class.getName()).log(Level.SEVERE, null, ex);&#xa;        }&#xa;catch (IOException ex) {&#xa;            Logger.getLogger(Ticket.class.getName()).log(Level.SEVERE, null, ex);&#xa;        }"/>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(a1Flag == 1){&#xa;    a1.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="e2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="E2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="e2MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(e2Flag == 1){&#xa;    e2.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="c1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="C1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="c1MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(c1Flag == 1){&#xa;    c1.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="b1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="B1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="b1MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(b1Flag == 1){&#xa;    b1.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="e1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="E1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="e1MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(e1Flag == 1){&#xa;    e1.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="d1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="D1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="d1MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(d1Flag == 1){&#xa;    d1.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="f1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="F1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="f1MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(f1Flag == 1){&#xa;    f1.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="g1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="G1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="g1MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(g1Flag == 1){&#xa;    g1.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="h1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="H1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="h1MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(h1Flag == 1){&#xa;    h1.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="i1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="I1"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="i1MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(i1Flag == 1){&#xa;    i1.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="i2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="I2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="i2MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(i2Flag == 1){&#xa;    i2.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="b2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="B2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="b2MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(b2Flag == 1){&#xa;    b2.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="c2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="C2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="c2MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(c2Flag == 1){&#xa;    c2.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="d2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="D2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="d2MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(d2Flag == 1){&#xa;    d2.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="f2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="F2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="f2MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(f2Flag == 1){&#xa;    f2.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="g2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="G2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="g2MouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="g2ActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(g2Flag == 1){&#xa;    g2.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="h2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="H2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="h2MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(h2Flag == 1){&#xa;    h2.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="a3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="A3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="a3MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(a3Flag == 1){&#xa;    a3.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="c3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="C3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="c3MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(c3Flag == 1){&#xa;    c3.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="b3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="B3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="b3MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(b3Flag == 1){&#xa;    b3.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="d3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="D3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="d3MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(d3Flag == 1){&#xa;    d3.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="e3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="E3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="e3MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(e3Flag == 1){&#xa;    e3.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="f3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="F3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="f3MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(f3Flag == 1){&#xa;    f3.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="g3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="G3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="g3MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(g3Flag == 1){&#xa;    g3.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="h3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="H3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="h3MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(h3Flag == 1){&#xa;    h3.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="i4">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="I4"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="i4MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(i4Flag == 1){&#xa;    i4.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JButton" name="i3">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="I3"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="i3MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(i3Flag == 1){&#xa;    i3.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/ticket_reservation/green.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Available"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="a2">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="}">
+                  <Connection code="new java.awt.Color(0, 204, 51)" type="code"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="A2"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="a2MouseClicked"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="if(a2Flag == 1){&#xa;    a2.setBackground(new java.awt.Color(255, 0, 0));&#xa;}&#xa;else{"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/ticket_reservation/red.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Unavailable"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="confirm">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Confirm"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="confirmMouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel4">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Seat Plan"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextField1_seat">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="0" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
