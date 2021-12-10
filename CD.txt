@@ -1,0 +1,4 @@
+ID/From/To/Type/Time/AC/fare
+103,Chottogram,Dhaka,Economy,11.00pm,Yes,400
+104,Chottogram,Dhaka,Business,9.00pm,Yes,800
+105,Chottogram,Dhaka,Economy,9.00pm,Yes,300
